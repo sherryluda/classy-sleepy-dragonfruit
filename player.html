@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="player.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pixelify+Sans:wght@400..700&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/ChatGPT%20Image%20May%204%2C%202025%2C%2003_06_33%20PM.png?v=1746473964781" />
+    <title>Sherry's CD player</title>
+
+    <!-- EXAMPLE：改用 ES Modules 模組式引入（需支援 module 的環境） -->
+    <!-- Three.js v149（最後一版支援非模組用法） -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.149.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+    <script src="player.js" defer></script>
+  </head>
+
+  <body>
+    <div class="music-playing-menu">
+      <div class="overlap-group-wrapper">
+        <div class="overlap-group">
+          <div class="frame">
+            <div class="div">
+              <div class="frame-2">
+                <div class="frame-3" data-link="main.html">
+                  <img
+                    class="right-up" 
+                    src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/right-up.png?v=1744945499331"
+                  />
+                  <div class="text"><div class="text-wrapper">Menu</div></div>
+                </div>
+                <div class="frame-4"></div>
+                <div class="frame-5">
+                  <div class="frame-6">
+                    <div class="text-wrapper-2">Album Name</div>
+                    <div class="frame-7">
+                      <img
+                        class="user"
+                        src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/user-2.png?v=1744944925665"
+                      />
+                      <div class="text-wrapper-3">Artist Name</div>
+                    </div>
+                  </div>
+                  <img
+                    class="rectangle"
+                    src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/album_cover.jpeg?v=1744945594213"
+                  />
+                </div>
+              </div>
+              <div class="frame-8"></div>
+              <div class="frame-9">
+                <div class="frame-10">
+                  <div class="div-wrapper">
+                    <div class="text-wrapper-4">2016</div>
+                  </div>
+                  <img
+                    class="barcode"
+                    src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/barcode.svg?v=1744944861506"
+                  />
+                </div>
+                <div class="frame-11"></div>
+                <div class="frame-12">
+                  <div class="frame-13">
+                    <div class="frame-14">
+                      <img
+                        class="image"
+                        src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/left_corner.png?v=1744945864538"
+                      />
+                      <div class="frame-15">
+                        <div class="CD-prototype" id="model-container">
+                          <model-viewer src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/CD.glb?v=1746683519359" auto-rotate auto-rotate-delay="0" camera-controls style="width: 100%; height: 400px;"></model-viewer>
+                        </div>
+                        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+                        <img
+                          class="image"
+                          src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/right_corner.png?v=1744945840351"
+                        />
+                      </div>
+                    </div>
+                    <div class="frame-16">
+                      <div class="frame-17">
+                        <div class="text-wrapper-5">01</div>
+                      </div>
+                      <div class="rectangle-2"></div>
+                      <div class="frame-17">
+                        <div class="text-wrapper-5">15</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="apple-aiob-aefbuo-wrapper">
+                    <p class="apple-aiob-aefbuo">
+                      BTS’s album WINGS kept me company through a lot of stressful days getting ready for entrance exams back in my student days in 2016. Every song has its own story, and the lyrics really meant a lot to me. One day while I was cleaning my room, I randomly came across the CD, and it brought back so many memories of listening to it on my old CD player.
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="frame-18"></div>
+            <div class="frame-19">
+              <div class="frame-20">
+                <div class="menu">
+                  <div class="frame-21" id="song-list"></div>
+                </div>
+              </div>
+
+              <div class="frame-23">
+                <div class="frame-wrapper">
+                  <div class="frame-24">
+                    <div class="frame-25">
+                      <div class="frame-26">
+                        <div class="text-wrapper-8">CD1</div>
+                        <div class="text-wrapper-8">TR01</div>
+                      </div>
+                      <div class="frame-27">
+                        <div class="text-wrapper-9">NORMAL</div>
+                      </div>
+                    </div>
+                    <div class="frame-28">
+                      <div class="frame-29">
+                        <div class="text-wrapper-10">00:14</div>
+                      </div>
+                      <div class="text-wrapper-11">/3:37</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="frame-30">
+                  <div class="frame-31">
+                    <div class="mode-change-button">
+                      <div class="text-wrapper-12">NORMAL</div>
+                    </div>
+                    <div class="mode-change-button">
+                      <div class="text-wrapper-12">REPEAT</div>
+                    </div>
+                    <div class="mode-change-button">
+                      <div class="text-wrapper-12">RANDOM</div>
+                    </div>
+                  </div>
+                  <div class="frame-32">
+                    <img
+                      class="back-forward-media"
+                      src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/fast-backward-media-control-button.png?v=1744945189400"
+                    />
+                    <div class="frame-33">
+                      <img
+                        class="stop_button"
+                        src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/Property%201%3DDefault-2.png?v=1744944890796"
+                      />
+                      <img
+                        class="play_button"
+                        src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/Property%201%3DDefault.png?v=1744944901589"
+                      />
+                      <img
+                        class="pause_button"
+                        src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/Property%201%3DDefault-1.png?v=1744944875761"
+                      />
+                    </div>
+                    <img
+                      class="fast-forward-media"
+                      src="https://cdn.glitch.global/25153c5c-de40-408b-bed2-d7c8e947fe1c/fast-forward-media-control-button.png?v=1744944854806"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
