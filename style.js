@@ -119,7 +119,7 @@ window.addEventListener("click", (event) => {
   raycaster.setFromCamera(mouse, camera);
   const intersects = raycaster.intersectObject(clickableModel, true);
   if (intersects.length > 0) {
-    window.location.href = ".public/main.html";
+    window.location.href = "public/main.html";
   }
 });
 
