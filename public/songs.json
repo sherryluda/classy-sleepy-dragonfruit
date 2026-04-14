@@ -1,0 +1,51 @@
+[
+  {
+    "title": "First Love",
+    "artist": "BTS (Suga)",
+    "filename": "BTS (Suga) - First Love.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (Suga) - First Love.mp3"
+  },
+  {
+    "title": "I Need U",
+    "artist": "BTS",
+    "filename": "BTS - I Need U.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단) - I Need U.mp3"
+  },
+  {
+    "title": "MAGIC SHOP",
+    "artist": "BTS",
+    "filename": "BTS - MAGIC SHOP.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단) - MAGIC SHOP.mp3"
+  },
+  {
+    "title": "SEA",
+    "artist": "BTS",
+    "filename": "BTS - SEA.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단) - SEA.mp3"
+  },
+  {
+    "title": "Spring Day",
+    "artist": "BTS",
+    "filename": "BTS - Spring Day.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단) - Spring Day.mp3"
+  },
+  {
+    "title": "Lost",
+    "artist": "BTS",
+    "filename": "BTS - Lost.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단)- Lost.mp3"
+  },
+  {
+    "title": "Butterfly",
+    "artist": "BTS",
+    "filename": "BTS - Butterfly.mp3",
+    "album": "WINGS",
+    "url": "../assets/BTS (방탄소년단)-Butterfly.mp3"
+  }
+]
