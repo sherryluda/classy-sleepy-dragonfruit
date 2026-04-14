@@ -4,28 +4,28 @@
     "artist": "BTS (Suga)",
     "filename": "BTS (Suga) - First Love.mp3",
     "album": "WINGS",
-    "url": "../assets/BTS (Suga) - First Love.mp3"
+    "url": "https://res.cloudinary.com/dq4xwlwmr/video/upload/q_auto/f_auto/v1776182806/BTS_Suga_-_First_Love_kcnnas.mp3"
   },
   {
     "title": "I Need U",
     "artist": "BTS",
     "filename": "BTS - I Need U.mp3",
     "album": "WINGS",
-    "url": "../assets/BTS (방탄소년단) - I Need U.mp3"
+    "url": "https://res.cloudinary.com/dq4xwlwmr/video/upload/q_auto/f_auto/v1776182807/BTS_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%90%E1%85%A1%E1%86%AB%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A1%E1%86%AB_-_I_Need_U_fl0nwv.mp3"
   },
   {
     "title": "MAGIC SHOP",
     "artist": "BTS",
     "filename": "BTS - MAGIC SHOP.mp3",
     "album": "WINGS",
-    "url": "../assets/BTS (방탄소년단) - MAGIC SHOP.mp3"
+    "url": "https://res.cloudinary.com/dq4xwlwmr/video/upload/q_auto/f_auto/v1776182807/BTS_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%90%E1%85%A1%E1%86%AB%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A1%E1%86%AB_-_MAGIC_SHOP_dqcc3r.mp3"
   },
   {
     "title": "SEA",
     "artist": "BTS",
     "filename": "BTS - SEA.mp3",
     "album": "WINGS",
-    "url": "../assets/BTS (방탄소년단) - SEA.mp3"
+    "url": "https://res.cloudinary.com/dq4xwlwmr/video/upload/q_auto/f_auto/v1776182807/BTS_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%90%E1%85%A1%E1%86%AB%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A1%E1%86%AB_-_SEA_zdyq5c.mp3"
   },
   {
     "title": "Spring Day",
@@ -46,6 +46,6 @@
     "artist": "BTS",
     "filename": "BTS - Butterfly.mp3",
     "album": "WINGS",
-    "url": "../assets/BTS (방탄소년단)-Butterfly.mp3"
+    "url": "https://res.cloudinary.com/dq4xwlwmr/video/upload/q_auto/f_auto/v1776182808/BTS_%E1%84%87%E1%85%A1%E1%86%BC%E1%84%90%E1%85%A1%E1%86%AB%E1%84%89%E1%85%A9%E1%84%82%E1%85%A7%E1%86%AB%E1%84%83%E1%85%A1%E1%86%AB_-Butterfly_ibz685.mp3"
   }
 ]
